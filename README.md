@@ -87,3 +87,14 @@ rosrun ros_aibot_core aibot_ctl_pub 4
 
 roslaunch ros_aibot_core aibot_core_ready.launch
 
+
+
+
+
+
+
+
+https://drive.google.com/drive/folders/1XyuwfRxJxDTJKdwjeckRB_7k1ZZifq-b?usp=drive_link
+
+
+
