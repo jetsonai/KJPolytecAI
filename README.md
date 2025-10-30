@@ -24,6 +24,15 @@ python3 02_exvideo.py
 
 python3 03_camera.py
 
+### usb 카메라 보기
+
+cd
+
+cd CHECK
+
+python3 usb-camera_test.py
+
+
 ## 3. MediaPipe + 카메라 실습
 
 cd
