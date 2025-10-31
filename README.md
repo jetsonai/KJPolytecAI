@@ -94,6 +94,24 @@ rosrun ros_aibot_core aibot_ctl_pub 4
 
 모터 준비
 
+
+# 명령을 주고 받는 관계 확인
+
+rqt_graph
+
+# 위험 감지
+
+## 라이다 시작
+
+roslaunch hls_lfcd_lds_driver view_hlds_laser.launch
+
+## 위험 감지
+
+rosrun ros_sensor_test lidar_node.py
+
+,..
+
+
 roslaunch ros_aibot_core aibot_core_ready.launch
 
 
