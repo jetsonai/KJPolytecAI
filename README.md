@@ -112,16 +112,6 @@ rosrun ros_sensor_test lidar_node.py
 
 # 로스 브릿지 연결
 
-## 설치
-
-sudo apt update
-
-sudo apt install ros-melodic-rosbridge-suite
-
-cd 
-
-source .bashrc
-
 # 실행
 
 [새창]
