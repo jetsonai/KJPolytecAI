@@ -94,6 +94,7 @@ rosrun ros_aibot_core aibot_ctl_pub 4
 
 모터 준비
 
+roslaunch ros_aibot_core aibot_core_ready.launch
 
 # 명령을 주고 받는 관계 확인
 
@@ -109,10 +110,27 @@ roslaunch hls_lfcd_lds_driver view_hlds_laser.launch
 
 rosrun ros_sensor_test lidar_node.py
 
-,..
+# 로스 브릿지 연결
+
+## 설치
+
+sudo apt update
+
+sudo apt install ros-melodic-rosbridge-suite
+
+cd 
+
+source .bashrc
+
+# 실행
+
+roslaunch rosbridge_server rosbridge_websocket.launch
+
+roslaunch ros_aibot_core aibot_core.launch
 
 
-roslaunch ros_aibot_core aibot_core_ready.launch
+
+
 
 
 
