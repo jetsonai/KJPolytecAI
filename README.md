@@ -124,7 +124,11 @@ source .bashrc
 
 # 실행
 
+[새창]
+
 roslaunch rosbridge_server rosbridge_websocket.launch
+
+[새창]
 
 roslaunch ros_aibot_core aibot_core.launch
 
